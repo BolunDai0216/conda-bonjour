@@ -11,7 +11,13 @@ Barebone code.
 
 ## v0.0.2: added meta.yaml
 
-First, create a release on GitHub. Then, using `grayskull`, we can generate the `meta.yaml` file using the command
+First, create a release on GitHub. Then, using `grayskull`, which can be installed using
+
+```bash
+conda install conda-forge::grayskull
+```
+
+we can generate the `meta.yaml` file using the command
 
 ```bash
 grayskull pypi https://github.com/BolunDai0216/conda-bonjour
