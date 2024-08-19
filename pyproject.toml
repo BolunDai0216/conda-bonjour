@@ -1,6 +1,6 @@
 [project]
 name = "conda_bonjour"
-version = "0.0.1"
+version = "0.0.3"
 description = "Tutorial on publishing to Conda"
 authors = [{ name = "Bolun Dai", email = "daibolun19950216@gmail.com" }]
 license = { text = "MIT License" }
