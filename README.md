@@ -53,7 +53,7 @@ This will upload the package to your own channel. For me, it will be at `https:/
 
 ## v0.0.4: added Python bindings of C++ source code
 
-Added the Python bindings of C++ source code.
+Added the Python bindings of C++ source code. It seems like the easiest way to compile the package for multiple different platforms is just to compile the package on that platform. This can be achieved by emulation in dockers using QEMU.
 
 ## Tips
 
