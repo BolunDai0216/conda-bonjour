@@ -1,13 +1,13 @@
-{% set name = "conda-bonjour" %}
-{% set version = "0.0.3" %}
+{% set name = "conda-bonjour" %}{% set version = "0.0.3" %}
+
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/BolunDai0216/conda-bonjour/archive/v{{ version }}.tar.gz
-  sha256: 423756207559b0751f5541a321119c0f388ed74275e74628f7540db1a8c57e11
+  url: https://github.com/BolunDai0216/conda-bonjour/archive/v0.0.3.tar.gz
+  sha256: 8c18017f9a43d77bcc35165437546eac44d06d16af79bd2fc47c91f054bed98f
 
 build:
   noarch: python

@@ -8,7 +8,7 @@ Barebone code.
 
 ## v0.0.2: added meta.yaml
 
-Using `grayskull` we can generate the `meta.yaml` file using the command
+First create a release on GitHub. Then, using `grayskull` we can generate the `meta.yaml` file using the command
 
 ```bash
 grayskull pypi https://github.com/BolunDai0216/conda-bonjour
@@ -37,4 +37,4 @@ anaconda login
 anaconda upload /path/to/conda-bonjour-x.x.x-py_0.tar.bz2
 ```
 
-This will upload the package to your own channel, for me it will be at `https://anaconda.org/bolundai/conda-bonjour`. A good resource on this topic can be found [here](https://docs.anaconda.com/anacondaorg/user-guide/packages/conda-packages/#uploading-conda-packages).
+This will upload the package to your own channel, for me it will be at `https://anaconda.org/bolundai/conda-bonjour`. A good resource on this topic can be found [here](https://docs.anaconda.com/anacondaorg/user-guide/packages/conda-packages/#uploading-conda-packages). Note that you need to create a new release on Github for each new version of the package and rerun `grayskull` to update the `meta.yaml` file (just the version and source information).
