@@ -54,3 +54,15 @@ This will upload the package to your own channel. For me, it will be at `https:/
 ## v0.0.4: added Python bindings of C++ source code
 
 Added the Python bindings of C++ source code.
+
+## Tips
+
+To speed up the solution time of `conda` one can set the default solver to `libmamba`
+
+```bash
+conda update -n base conda 
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
+```
+
+which is the default solver in newer versions of conda.
