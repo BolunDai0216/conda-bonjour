@@ -16,6 +16,11 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - eigen
+    - cmake
+    - wheel
+    - ninja
+    - pip
   host:
     - python >=3.8
     - setuptools >=61.0.0
@@ -24,6 +29,7 @@ requirements:
     - wheel
     - ninja
     - pip
+    - eigen
   run:
     - python >=3.8
     - numpy >=1.22.0
