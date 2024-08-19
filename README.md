@@ -44,3 +44,7 @@ anaconda upload /path/to/conda-bonjour-x.x.x-py_0.tar.bz2
 ```
 
 This will upload the package to your own channel. For me, it will be at `https://anaconda.org/bolundai/conda-bonjour`. A good resource on this topic can be found [here](https://docs.anaconda.com/anacondaorg/user-guide/packages/conda-packages/#uploading-conda-packages). 
+
+## v0.0.4: added Python bindings of C++ source code
+
+Added the Python bindings of C++ source code.
