@@ -1,5 +1,8 @@
 # conda-bonjour
 
+[![License](https://img.shields.io/badge/License-MIT-cfd8dc?style=flat-square&labelColor=orange&color=lightgray)](https://github.com/BolunDai0216/pypi-bonjour/blob/main/LICENSE)
+[![Anaconda](https://img.shields.io/conda/vn/bolundai/conda-bonjour?style=flat-square&labelColor=orange&color=lightgray)](https://anaconda.org/bolundai/conda-bonjour)
+
 Tutorial on packaging with conda 
 
 ## v0.0.1: initial commit
