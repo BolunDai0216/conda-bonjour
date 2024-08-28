@@ -55,6 +55,12 @@ This will upload the package to your own channel. For me, it will be at `https:/
 
 Added the Python bindings of C++ source code. It seems like the easiest way to compile the package for multiple different platforms is just to compile the package on that platform. This can be achieved by emulation in dockers using QEMU.
 
+## v0.0.5: added `build.sh`
+
+```bash
+CondaBuildException: Found a build.sh script and a build/script section inside meta.yaml. Either remove the build.sh script or remove the build/script section in meta.yaml.
+```
+
 ## Tips
 
 To speed up the solution time of `conda` one can set the default solver to `libmamba`

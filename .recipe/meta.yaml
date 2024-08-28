@@ -7,11 +7,9 @@ package:
 
 source:
   url: https://github.com/BolunDai0216/conda-bonjour/archive/v{{ version }}.tar.gz
-  sha256: 0079794c39d7c76c22bebc1e5eff95aa367dfcb7a25dd3666979dd3ead0172e5
+  sha256: 5afdc23fb14cac27771e41b919053c7c1ab1a5418438e134b3ef855e5a26b11d
 
 build:
-  # script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  script: bash build.sh
   number: 0
 
 requirements:
@@ -23,7 +21,7 @@ requirements:
     - ninja
     - pip
   host:
-    - python >=3.8
+    - python ==3.10
     - setuptools >=61.0.0
     - pybind11 >=2.10.0
     - cmake
@@ -32,7 +30,7 @@ requirements:
     - pip
     - eigen
   run:
-    - python >=3.8
+    - python ==3.10
     - numpy >=1.22.0
 
 test:
