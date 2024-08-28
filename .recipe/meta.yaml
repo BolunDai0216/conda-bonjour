@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/BolunDai0216/conda-bonjour/archive/v{{ version }}.tar.gz
-  sha256: 5afdc23fb14cac27771e41b919053c7c1ab1a5418438e134b3ef855e5a26b11d
+  sha256: 5be2d53028c1d617d8d4a05430170abe677b7f99192f8769d4714f8805057881
 
 build:
   number: 0
